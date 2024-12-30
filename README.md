@@ -15,11 +15,18 @@ The application consists of three key files:
   - User interface using tkinter
   - Data storage and retrieval logic
 
+- `task_history.json`: a JSON-based data structure to store and track tasks. Each task is logged with the following information:
+  - Task name
+  - Duration (in minutes)
+  - Status (completed or dismissed)
+
 - `test_project.py`: A comprehensive test suite that:
   - Validates timer functionality
   - Tests task management features
   - Verifies progress tracking accuracy
   - Ensures data persistence reliability
+ 
+  
 
 - `requirements.txt`: Lists all project dependencies including:
   - Required Python packages
